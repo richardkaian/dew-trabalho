@@ -5,10 +5,10 @@ const produto = {
     estoque: 5
 };
 
-// Converter preço
+
 produto.preco = Number(produto.preco);
 
-// Validar preço
+
 if (isNaN(produto.preco)) {
     console.log("Preço inválido.");
 } else {
